@@ -197,7 +197,7 @@ function create() {
         }
 
         //spade button
-        Button.createNew(this, iconLeft + iconGap, sloganYL, 'spade', 1, function () {
+        Button.createNew(this, iconLeft + iconGap, sloganYL, 'spade', 1.2, function () {
             player.setTexture('spade');
             opreationType = 2 * Math.sign(opreationType);
         });
